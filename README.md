@@ -1,17 +1,6 @@
 # Conferencia
-Place this app in **owncloud/apps/**
+This is a WebRTC Conferece Script for owncloud 
 
-## Publish to App Store
-
-First get an account for the [App Store](http://apps.owncloud.com/) then run:
-
-    make appstore
-
-**ocdev** will ask for your App Store credentials and save them to ~/.ocdevrc which is created afterwards for reuse.
-
-If the <ocsid> field in **appinfo/info.xml** is not present, a new app will be created on the appstore instead of updated. You can look up the ocsid in the app page URL, e.g.: **http://apps.owncloud.com/content/show.php/News?content=168040** would use the ocsid **168040**
-
-## Running tests
-After [Installing PHPUnit](http://phpunit.de/getting-started.html) run:
-
-    phpunit -c phpunit.xml
+#Problems
+i have a Content-security Policy error, I'm trying to run scripts from another domain and the console returns me the following error:
+"Refused to frame 'https://cdn.webrtc-experiment.com/getIceServers/' because it violates the Following Content Security Policy directive:" default-src 'none' "Note that 'frame-src' was not Explicitly set. , so 'default-src' is used as a fallback. "

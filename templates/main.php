@@ -8,7 +8,6 @@ style('conferencia', 'style');
 	<div id="app-content">
 
 <article>
- <?php  print_unescaped($this->inc('part.content')); ?>
 
 
             <div class="github-stargazers"></div>
@@ -21,11 +20,11 @@ style('conferencia', 'style');
                     <section class="experiment">                
                 <section>
                   <span>
-                        Privado? <a href="/video-conferencing/" target="_blank" title="Abra o Link em uma nova aba e a conferencia será privada"><code><strong id="unique-token">#123456789</strong></code></a>
+                        Privado? <a href="/video-conferencing/" target="_blank" title="Abra o Link em uma nova aba e a conferencia serÃ¡ privada"><code><strong id="unique-token">#123456789</strong></code></a>
                     </span>
                     
                   <input type="text" id="conference-name">
-                    <button id="setup-new-room" class="setup">Começar nova conferência</button>
+                    <button id="setup-new-room" class="setup">ComeÃ§ar nova conferÃªncia</button>
                 </section>
                 
             

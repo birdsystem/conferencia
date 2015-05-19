@@ -1,0 +1,36 @@
+<?php
+script('conferencia', array('script','firebase','RTCPeerConnection-v1.5','conference','getMediaElement.min'));
+style('conferencia', 'style');
+?>
+
+<div id="app">
+
+	<div id="app-content">
+
+<article>
+            <header style="text-align: center;">
+                <h1>&nbsp;</h1>
+
+            <div class="github-stargazers"></div>
+        
+            <section class="experiment">                
+                <section>
+                  <span>
+                        Privado? <a href="/video-conferencing/" target="_blank" title="Abra o Link em uma nova aba e a conferencia será privada"><code><strong id="unique-token">#123456789</strong></code></a>
+                    </span>
+                    
+                  <input type="text" id="conference-name">
+                    <button id="setup-new-room" class="setup">Começar nova conferência</button>
+                </section>
+                
+            
+                <table id="rooms-list" style="width: 100%;"></table>
+                
+                <div id="videos-container"></div>
+            </section>
+            <section class="experiment"> </section>
+        </article>		</div>
+	</div>
+</div>
+ <?php print_unescaped($this->inc('part.navigation')); ?>
+

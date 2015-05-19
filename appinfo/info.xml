@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>conferencia</id>
+    <name>Conferencia</name>
+    <description>Sala de Video Conferencia</description>
+    <licence>AGPL</licence>
+    <author>Guilherme Gomes</author>
+    <version>0.0.1</version>
+    <namespace>Conferencia</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="8" />
+    </dependencies>
+</info>
